@@ -1,12 +1,11 @@
 package com.example.data_application
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class ActivitySignUp : AppCompatActivity() {
     lateinit var enternamu: EditText
@@ -25,6 +24,7 @@ class ActivitySignUp : AppCompatActivity() {
         entermail = findViewById(R.id.entermail)
         password = findViewById(R.id.password)
         confirmpassword = findViewById(R.id.confirmpassword)
+        registerbutton = findViewById(R.id.registerbutton) // Initialize registerbutton
 
         registerbutton.setOnClickListener {
             Toast.makeText(this, "Logged In", Toast.LENGTH_LONG).show()

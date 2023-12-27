@@ -47,7 +47,7 @@
         android:drawableLeft="@drawable/password34"
         android:inputType="numberPassword"/>
 
-    <EditText
+    <TextView
         android:id="@+id/forgotpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,14 +78,14 @@
         android:text="Not Registered?"
         android:layout_marginTop="30dp"/>
 
-    <EditText
+    <TextView
         android:id="@+id/signuptext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
         android:layout_below="@+id/loginbutton"
         android:textSize="14sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="32dp"
         android:layout_toEndOf="@+id/notregistered"
         android:textColor="#8975ca"/>
 

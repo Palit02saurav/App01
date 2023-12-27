@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.example.data_application.R
 
@@ -14,8 +15,8 @@ class ActivityLogin : AppCompatActivity() {
     lateinit var entername: EditText
     lateinit var enterpassword: EditText
     lateinit var loginbutton: Button
-    lateinit var forgotpassword: EditText
-    lateinit var signuptext: EditText
+    lateinit var forgotpassword: TextView
+    lateinit var signuptext: TextView
     val validname = "Saurav Palit"
     val validpass = "12345678"
 
