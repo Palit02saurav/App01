@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Data_Application</string>
+    <string name="link">
+         PDF by Harvard University:-<a href= "https://www-thphys.physics.ox.ac.uk/people/JamesBinney/qb.pdf"> Process </a>
+</string>
+    <string name="link01">
+        PDF by UOBuenoes Aeries:-<a href="http://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/grynberg_aspect_fabre_introduction_to_quantum_optics.pdf">Process</a>
+</string>
+<string name="link02">
+        PDF by University North Carolina:-<a href="https://help.rc.unc.edu/Assets/New_Course_Material/General_Computing/Introduction_to_Quantum_Computers.pdf">Process</a>
+</string>
+<string name="link03">
+        PDF by CORE:-<a href="https://core.ac.uk/download/pdf/132530214.pdf">Process</a>
+</string>
+    <string name="link04">
+        PDF by WordPress:-<a href="https://sudarshan800.files.wordpress.com/2016/03/our-environment.pdf">Process</a>
+</string>
+    <string name="link05">
+        PDF by WordPress:-<a href="https://ncert.nic.in/textbook.php?leph1=0-8">Process</a>
+</string>
+    <string name="preference_file_name">Data Stored</string>
+</resources>

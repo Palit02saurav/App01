@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/breckin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="𝕭𝖗𝖊𝖈𝖐𝖎𝖓 𝕶𝖓𝖔𝖜𝖑𝖊𝖉𝖌𝖊"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:textAlignment="center"
+                android:background="#9575cd"/>
+
+
+            <!-- First Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/breckin"
+                android:src="@drawable/physics"/>
+
+            <TextView
+                android:id="@+id/textforphysics01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breckin"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- Quantum Mechanics"/>
+
+            <TextView
+                android:id="@+id/textforphysics02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics01"
+                android:layout_alignParentRight="true"
+                android:text="@string/link"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics02"
+                android:layout_alignParentRight="true"
+                android:text="Source Harvard University"
+                android:maxLines="2"/>
+
+
+            <!-- Second Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics03"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/QuantumPhysics"
+                android:src="@drawable/quantumoptics"/>
+
+            <TextView
+                android:id="@+id/textforphysics03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuantumPhysics"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- Quantum Optics"/>
+
+            <TextView
+                android:id="@+id/textforphysics04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics03"
+                android:layout_alignParentRight="true"
+                android:text="@string/link01"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics04"
+                android:layout_alignParentRight="true"
+                android:text="Source University Of Aeries"
+                android:maxLines="2"/>
+
+
+            <!-- Third Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics04"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/QuantumPhysics03"
+                android:src="@drawable/quantumcomputing"/>
+
+            <TextView
+                android:id="@+id/textforphysics08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuantumPhysics03"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- Quantum Optics"/>
+
+            <TextView
+                android:id="@+id/textforphysics09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics08"
+                android:layout_alignParentRight="true"
+                android:text="@string/link02"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics09"
+                android:layout_alignParentRight="true"
+                android:text="Source University Of North Carolina"
+                android:maxLines="2"/>
+
+            <!-- Fourth Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics05"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/QuantumPhysics04"
+                android:src="@drawable/iot"/>
+
+            <TextView
+                android:id="@+id/textforphysics11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuantumPhysics04"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- Internet of Things(IOT)"/>
+
+            <TextView
+                android:id="@+id/textforphysics12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics11"
+                android:layout_alignParentRight="true"
+                android:text="@string/link03"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics12"
+                android:layout_alignParentRight="true"
+                android:text="Source Google Web(Core)"
+                android:maxLines="2"/>
+
+
+            <!-- Fifth Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics06"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/QuantumPhysics05"
+                android:src="@drawable/environment"/>
+
+            <TextView
+                android:id="@+id/textforphysics14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuantumPhysics05"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- Environment"/>
+
+            <TextView
+                android:id="@+id/textforphysics15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics14"
+                android:layout_alignParentRight="true"
+                android:text="@string/link04"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics15"
+                android:layout_alignParentRight="true"
+                android:text="Source Google Web(Core)"
+                android:maxLines="2"/>
+
+
+            <!-- Sixth Row -->
+            <ImageView
+                android:id="@+id/QuantumPhysics07"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_below="@id/QuantumPhysics06"
+                android:src="@drawable/ncert"/>
+
+            <TextView
+                android:id="@+id/textforphysics17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuantumPhysics06"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="-1dp"
+                android:text="Subject :- NCERT(Physics)"/>
+
+            <TextView
+                android:id="@+id/textforphysics18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics17"
+                android:layout_alignParentRight="true"
+                android:text="@string/link05"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/textforphysics19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textforphysics18"
+                android:layout_alignParentRight="true"
+                android:text="Source Google NCERT"
+                android:maxLines="2"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

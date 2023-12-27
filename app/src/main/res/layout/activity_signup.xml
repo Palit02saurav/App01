@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book">
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="#64b5f6"/>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_below="@id/signup"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/another"/>
+
+    <EditText
+        android:id="@+id/enternamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter Name"
+        android:drawableLeft="@drawable/per34"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/enterusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enternamu"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter UserName"
+        android:drawableLeft="@drawable/profile34"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/entermail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterusername"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter MailID"
+        android:drawableLeft="@drawable/baseline_attach_email_24"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entermail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter Password"
+        android:drawableLeft="@drawable/password34"
+        android:inputType="numberPassword"/>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Confirm Password"
+        android:drawableLeft="@drawable/confirm24"/>
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/confirmpassword"
+        android:text="Register"
+        android:background="#189AB4"/>
+
+</RelativeLayout>
